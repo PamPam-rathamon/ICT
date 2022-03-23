@@ -1,0 +1,4 @@
+RECIEVE year_of_birth FROM KEYBOARD
+
+SET 'Age' = 2022 - year_of_birth
+SEND " You are 'Age' years old" TO DISPLAY
