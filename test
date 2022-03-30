@@ -1,0 +1,11 @@
+RECEIVE temperature FROM KEYBOARD
+IF temperature < 22 THEN
+   SEND "Cold the perfect Bathroom temperature is usually between 22-24 celsius" TO DISPLAY
+      END IF
+ELSE
+IF  temperature < 25 THEN
+   SEND "Perfect" TO DISPLAY
+     END IF
+ELSE
+   SEND "No! the perfect Bathroom temperature is usually between 22-24 celsius" TO DISPLAY
+     END IF
