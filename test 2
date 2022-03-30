@@ -1,0 +1,4 @@
+RECEIVE height (in metres) FROM KEYBOARD
+RECIEVE weight (in kilograms) FROM KEYBOARD
+SET 'BMI' to weight/height^2
+SEND 'BMI' TO DISPLAY
